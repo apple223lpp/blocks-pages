@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Builder Hub Explorer</title>
    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              avalanche: {
+                red: '#E84142',
+                dark: '#B01E2E',
+              },
+              hub: {
+                bg: '#F5F6FA',
+                text: '#111827',
+                muted: '#6B7280',
+                purple: '#8B5CF6',
+                purpleLight: '#F3F0FF',
+                pinkLight: '#FDF2F8',
+              }
+            }
+          }
+        }
+      }
+    </script>
     <style>
       body {
         font-family: 'Inter', sans-serif;
@@ -28,8 +56,8 @@
     </style>
 
 </head>
-  <body>
+  <body>“
     <div id="root"></div>
-  <script type="module" src=/src/main.tsx"></script>
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
